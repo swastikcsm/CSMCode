@@ -1,0 +1,62 @@
+# Maven target directory
+/target/
+
+# Maven specific files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Logs
+*.log
+/logs/
+/test-output/
+
+# Eclipse specific files
+.project
+.classpath
+.settings/
+
+# IntelliJ specific files
+.idea/
+*.iml
+*.iws
+out/
+
+# NetBeans specific files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Selenium-specific files
+/screenshots/
+/testng-output/
+*.har
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# JUnit reports and test data
+*.csv
+*.xml
+*.json
+*.xlsx
+
+# Dependency directory (if applicable)
+/lib/
+
+# Generated files (optional, depending on your setup)
+/reports/
+/surefire-reports/
+/allure-results/
+/allure-report/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
